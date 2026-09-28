@@ -129,17 +129,37 @@ A API do Wikimedia limita requisições sem identificação a ~10/min por IP, e 
 (CI, sandboxes, alguns provedores) costumam receber `HTTP 429`. O projeto lida com isso assim:
 
 1. **User-Agent identificável** (`NycTravelSearch/0.1 (contato)`) — ajuste `WIKIMEDIA_CONTACT`.
-2. **Token OAuth opcional** (`WIKIMEDIA_ACCESS_TOKEN`) para limites de usuário autenticado.
+2. **Token OAuth opcional** (`WIKIMEDIA_ACCESS_TOKEN`, de um *owner-only consumer* OAuth 2.0 criado no
+   [meta.wikimedia.org](https://meta.wikimedia.org/wiki/Special:OAuthConsumerRegistration/propose/oauth2)) para limites
+   de usuário autenticado; o cookie de sessão que o gateway devolve é reenviado, como a política exige.
 3. **Respeita o `Retry-After`**: durante um bloqueio o servidor para de chamar a API (disjuntor).
 4. **Fallback no navegador:** se o servidor não conseguiu, a página busca direto do navegador do
    visitante (CORS `origin=*` + `Api-User-Agent`), usando a cota de cada usuário.
 5. As URLs do Wikimedia agora vêm com `?utm_source=…`; a extensão do arquivo é checada só no caminho.
 
-## Deploy
+## Deploy (Vercel)
 
-Funciona em qualquer host Node (Vercel, Render, Fly.io, Docker). Na Vercel: importe o repositório,
-defina `NEXT_PUBLIC_SITE_URL` e as chaves opcionais. O cache e o limite por IP são em memória
-(por instância) — para escala, troque por Redis/Upstash em `src/lib/cache.ts` e `src/lib/rate-limit.ts`.
+O projeto roda na Vercel sem configuração extra (Next.js é detectado sozinho):
+
+1. Em [vercel.com/new](https://vercel.com/new), importe o repositório `nyc-travel-search` do GitHub.
+2. (Opcional) Em **Settings → Environment Variables**, adicione as chaves abaixo e faça *Redeploy*.
+3. Cada push no `main` publica em produção; pull requests ganham um link de preview.
+
+`NEXT_PUBLIC_SITE_URL` pode ficar vazia: o site usa o domínio de produção da Vercel
+(`VERCEL_PROJECT_PRODUCTION_URL`). O cache e o limite por IP são em memória (por instância) —
+para escala, troque por Redis/Upstash em `src/lib/cache.ts` e `src/lib/rate-limit.ts`.
+
+### Como conseguir as chaves (todas opcionais)
+
+| Variável | Onde pegar | Custo |
+| --- | --- | --- |
+| `LITEAPI_KEY` | Crie a conta em [liteapi.travel](https://liteapi.travel) (*Sign up*), abra o dashboard → **Developer → API Keys** e copie a chave **sandbox** | grátis (sandbox, sem cartão) |
+| `SERPAPI_KEY` | Cadastre-se em [serpapi.com](https://serpapi.com/users/sign_up), confirme e-mail/telefone e copie a chave em [Api Key](https://serpapi.com/manage-api-key) | plano grátis com cota mensal (≈250 buscas) |
+| `WIKIMEDIA_ACCESS_TOKEN` | Com uma conta Wikimedia, registre um consumer em [OAuth 2.0 → propose](https://meta.wikimedia.org/wiki/Special:OAuthConsumerRegistration/propose/oauth2), marque *"This consumer is for use only by …"* (owner-only), grants básicos, e copie o **access token** exibido | grátis |
+| `NEXT_PUBLIC_MAP_TILES` | Só para tráfego alto: crie uma chave em [MapTiler](https://cloud.maptiler.com/account/keys/) e use a URL de tiles dela | grátis até um limite |
+
+> A SerpApi cobra por busca: cada página de hotéis ou busca de voos consome 1 crédito
+> (o cache de 15–30 min evita repetir buscas iguais).
 
 ## Avisos
 
