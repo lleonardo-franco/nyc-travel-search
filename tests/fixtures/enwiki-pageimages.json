@@ -1,0 +1,36 @@
+{
+ "batchcomplete": "",
+ "query": {
+  "normalized": [
+   {
+    "from": "SoHo,_Manhattan",
+    "to": "SoHo, Manhattan"
+   }
+  ],
+  "redirects": [
+   {
+    "from": "SoHo, Manhattan",
+    "to": "SoHo"
+   }
+  ],
+  "pages": {
+   "200": {
+    "pageid": 200,
+    "ns": 0,
+    "title": "Times Square",
+    "pageimage": "Times_Square,_New_York_City_(HDR).jpg"
+   },
+   "201": {
+    "pageid": 201,
+    "ns": 0,
+    "title": "SoHo",
+    "pageimage": "SoHo_building.jpg"
+   },
+   "-1": {
+    "ns": 0,
+    "title": "Nonexistent place",
+    "missing": ""
+   }
+  }
+ }
+}

@@ -1,0 +1,353 @@
+{
+ "query": "GRU → NYC on 10/11/2026, returning 20/11/2026, 1 adult",
+ "currency": "BRL",
+ "passengers": {
+  "adults": 1,
+  "children": 0,
+  "infants": 0
+ },
+ "resultsCount": 15,
+ "itineraries": [
+  {
+   "id": "005320a1511f5129b74fff66_0|005320a1511f5129b74fff66_1|005320a1511f5129b74fff66_2|005320a1511f5129b74fff66_3",
+   "price": 4861.0,
+   "priceFormatted": "4861 BRL",
+   "totalDurationSeconds": 98100,
+   "bookingUrl": "https://kiwi.com/u/76ygw37",
+   "imageId": "new-york-city_ny_us",
+   "baggage": {
+    "personalItem": 1,
+    "cabinBag": 1,
+    "checkedBag": 0
+   },
+   "outbound": {
+    "from": "GRU",
+    "to": "JFK",
+    "departureTime": "2026-11-10T17:25:00",
+    "arrivalTime": "2026-11-11T05:00:00",
+    "durationSeconds": 48900,
+    "stops": 1,
+    "route": [
+     "GRU",
+     "BOG",
+     "JFK"
+    ],
+    "cabinClass": "Economy",
+    "segments": [
+     {
+      "from": "GRU",
+      "to": "BOG",
+      "fromCity": "São Paulo",
+      "toCity": "Bogotá",
+      "fromName": "Aeroporto Internacional de São Paulo-Guarulhos",
+      "toName": "Aeroporto Internacional El Dorado",
+      "fromCountry": "Brasil",
+      "toCountry": "Colômbia",
+      "departureTime": "2026-11-10T17:25:00",
+      "arrivalTime": "2026-11-10T21:30:00",
+      "durationSeconds": 21900,
+      "carrier": "AV",
+      "carrierName": "Avianca",
+      "flightNumber": "AV184",
+      "cabinClass": "Economy"
+     },
+     {
+      "from": "BOG",
+      "to": "JFK",
+      "fromCity": "Bogotá",
+      "toCity": "Nova York",
+      "fromName": "Aeroporto Internacional El Dorado",
+      "toName": "Aeroporto Internacional John F. Kennedy",
+      "fromCountry": "Colômbia",
+      "toCountry": "Estados Unidos",
+      "departureTime": "2026-11-10T23:05:00",
+      "arrivalTime": "2026-11-11T05:00:00",
+      "durationSeconds": 21300,
+      "carrier": "AV",
+      "carrierName": "Avianca",
+      "flightNumber": "AV20",
+      "cabinClass": "Economy"
+     }
+    ]
+   },
+   "inbound": {
+    "from": "JFK",
+    "to": "GRU",
+    "departureTime": "2026-11-20T14:25:00",
+    "arrivalTime": "2026-11-21T06:05:00",
+    "durationSeconds": 49200,
+    "stops": 1,
+    "route": [
+     "JFK",
+     "BOG",
+     "GRU"
+    ],
+    "cabinClass": "Economy",
+    "segments": [
+     {
+      "from": "JFK",
+      "to": "BOG",
+      "fromCity": "Nova York",
+      "toCity": "Bogotá",
+      "fromName": "Aeroporto Internacional John F. Kennedy",
+      "toName": "Aeroporto Internacional El Dorado",
+      "fromCountry": "Estados Unidos",
+      "toCountry": "Colômbia",
+      "departureTime": "2026-11-20T14:25:00",
+      "arrivalTime": "2026-11-20T20:30:00",
+      "durationSeconds": 21900,
+      "carrier": "AV",
+      "carrierName": "Avianca",
+      "flightNumber": "AV211",
+      "cabinClass": "Economy"
+     },
+     {
+      "from": "BOG",
+      "to": "GRU",
+      "fromCity": "Bogotá",
+      "toCity": "São Paulo",
+      "fromName": "Aeroporto Internacional El Dorado",
+      "toName": "Aeroporto Internacional de São Paulo-Guarulhos",
+      "fromCountry": "Colômbia",
+      "toCountry": "Brasil",
+      "departureTime": "2026-11-20T21:45:00",
+      "arrivalTime": "2026-11-21T06:05:00",
+      "durationSeconds": 22800,
+      "carrier": "AV",
+      "carrierName": "Avianca",
+      "flightNumber": "AV85",
+      "cabinClass": "Economy"
+     }
+    ]
+   }
+  },
+  {
+   "id": "005320a1511f5129a816aa7f_0|005320a1511f5129a816aa7f_1|005320a1511f5129a816aa7f_2|005320a1511f5129a816aa7f_3",
+   "price": 4861.0,
+   "priceFormatted": "4861 BRL",
+   "totalDurationSeconds": 99300,
+   "bookingUrl": "https://kiwi.com/u/5fdbju2",
+   "imageId": "new-york-city_ny_us",
+   "baggage": {
+    "personalItem": 1,
+    "cabinBag": 1,
+    "checkedBag": 0
+   },
+   "outbound": {
+    "from": "GRU",
+    "to": "JFK",
+    "departureTime": "2026-11-10T17:25:00",
+    "arrivalTime": "2026-11-11T05:00:00",
+    "durationSeconds": 48900,
+    "stops": 1,
+    "route": [
+     "GRU",
+     "BOG",
+     "JFK"
+    ],
+    "cabinClass": "Economy",
+    "segments": [
+     {
+      "from": "GRU",
+      "to": "BOG",
+      "fromCity": "São Paulo",
+      "toCity": "Bogotá",
+      "fromName": "Aeroporto Internacional de São Paulo-Guarulhos",
+      "toName": "Aeroporto Internacional El Dorado",
+      "fromCountry": "Brasil",
+      "toCountry": "Colômbia",
+      "departureTime": "2026-11-10T17:25:00",
+      "arrivalTime": "2026-11-10T21:30:00",
+      "durationSeconds": 21900,
+      "carrier": "AV",
+      "carrierName": "Avianca",
+      "flightNumber": "AV184",
+      "cabinClass": "Economy"
+     },
+     {
+      "from": "BOG",
+      "to": "JFK",
+      "fromCity": "Bogotá",
+      "toCity": "Nova York",
+      "fromName": "Aeroporto Internacional El Dorado",
+      "toName": "Aeroporto Internacional John F. Kennedy",
+      "fromCountry": "Colômbia",
+      "toCountry": "Estados Unidos",
+      "departureTime": "2026-11-10T23:05:00",
+      "arrivalTime": "2026-11-11T05:00:00",
+      "durationSeconds": 21300,
+      "carrier": "AV",
+      "carrierName": "Avianca",
+      "flightNumber": "AV20",
+      "cabinClass": "Economy"
+     }
+    ]
+   },
+   "inbound": {
+    "from": "JFK",
+    "to": "GRU",
+    "departureTime": "2026-11-20T00:15:00",
+    "arrivalTime": "2026-11-20T16:15:00",
+    "durationSeconds": 50400,
+    "stops": 1,
+    "route": [
+     "JFK",
+     "BOG",
+     "GRU"
+    ],
+    "cabinClass": "Economy",
+    "segments": [
+     {
+      "from": "JFK",
+      "to": "BOG",
+      "fromCity": "Nova York",
+      "toCity": "Bogotá",
+      "fromName": "Aeroporto Internacional John F. Kennedy",
+      "toName": "Aeroporto Internacional El Dorado",
+      "fromCountry": "Estados Unidos",
+      "toCountry": "Colômbia",
+      "departureTime": "2026-11-20T00:15:00",
+      "arrivalTime": "2026-11-20T06:05:00",
+      "durationSeconds": 21000,
+      "carrier": "AV",
+      "carrierName": "Avianca",
+      "flightNumber": "AV245",
+      "cabinClass": "Economy"
+     },
+     {
+      "from": "BOG",
+      "to": "GRU",
+      "fromCity": "Bogotá",
+      "toCity": "São Paulo",
+      "fromName": "Aeroporto Internacional El Dorado",
+      "toName": "Aeroporto Internacional de São Paulo-Guarulhos",
+      "fromCountry": "Colômbia",
+      "toCountry": "Brasil",
+      "departureTime": "2026-11-20T07:55:00",
+      "arrivalTime": "2026-11-20T16:15:00",
+      "durationSeconds": 22800,
+      "carrier": "AV",
+      "carrierName": "Avianca",
+      "flightNumber": "AV185",
+      "cabinClass": "Economy"
+     }
+    ]
+   }
+  },
+  {
+   "id": "005320a1511f51293fae48d8_0|005320a1511f51293fae48d8_1|005320a1511f51293fae48d8_2|005320a1511f51293fae48d8_3",
+   "price": 4861.0,
+   "priceFormatted": "4861 BRL",
+   "totalDurationSeconds": 100800,
+   "bookingUrl": "https://kiwi.com/u/d7vvyq",
+   "imageId": "new-york-city_ny_us",
+   "baggage": {
+    "personalItem": 1,
+    "cabinBag": 1,
+    "checkedBag": 0
+   },
+   "outbound": {
+    "from": "GRU",
+    "to": "JFK",
+    "departureTime": "2026-11-10T17:25:00",
+    "arrivalTime": "2026-11-11T05:00:00",
+    "durationSeconds": 48900,
+    "stops": 1,
+    "route": [
+     "GRU",
+     "BOG",
+     "JFK"
+    ],
+    "cabinClass": "Economy",
+    "segments": [
+     {
+      "from": "GRU",
+      "to": "BOG",
+      "fromCity": "São Paulo",
+      "toCity": "Bogotá",
+      "fromName": "Aeroporto Internacional de São Paulo-Guarulhos",
+      "toName": "Aeroporto Internacional El Dorado",
+      "fromCountry": "Brasil",
+      "toCountry": "Colômbia",
+      "departureTime": "2026-11-10T17:25:00",
+      "arrivalTime": "2026-11-10T21:30:00",
+      "durationSeconds": 21900,
+      "carrier": "AV",
+      "carrierName": "Avianca",
+      "flightNumber": "AV184",
+      "cabinClass": "Economy"
+     },
+     {
+      "from": "BOG",
+      "to": "JFK",
+      "fromCity": "Bogotá",
+      "toCity": "Nova York",
+      "fromName": "Aeroporto Internacional El Dorado",
+      "toName": "Aeroporto Internacional John F. Kennedy",
+      "fromCountry": "Colômbia",
+      "toCountry": "Estados Unidos",
+      "departureTime": "2026-11-10T23:05:00",
+      "arrivalTime": "2026-11-11T05:00:00",
+      "durationSeconds": 21300,
+      "carrier": "AV",
+      "carrierName": "Avianca",
+      "flightNumber": "AV20",
+      "cabinClass": "Economy"
+     }
+    ]
+   },
+   "inbound": {
+    "from": "JFK",
+    "to": "GRU",
+    "departureTime": "2026-11-20T06:30:00",
+    "arrivalTime": "2026-11-20T22:55:00",
+    "durationSeconds": 51900,
+    "stops": 1,
+    "route": [
+     "JFK",
+     "BOG",
+     "GRU"
+    ],
+    "cabinClass": "Economy",
+    "segments": [
+     {
+      "from": "JFK",
+      "to": "BOG",
+      "fromCity": "Nova York",
+      "toCity": "Bogotá",
+      "fromName": "Aeroporto Internacional John F. Kennedy",
+      "toName": "Aeroporto Internacional El Dorado",
+      "fromCountry": "Estados Unidos",
+      "toCountry": "Colômbia",
+      "departureTime": "2026-11-20T06:30:00",
+      "arrivalTime": "2026-11-20T12:25:00",
+      "durationSeconds": 21300,
+      "carrier": "AV",
+      "carrierName": "Avianca",
+      "flightNumber": "AV21",
+      "cabinClass": "Economy"
+     },
+     {
+      "from": "BOG",
+      "to": "GRU",
+      "fromCity": "Bogotá",
+      "toCity": "São Paulo",
+      "fromName": "Aeroporto Internacional El Dorado",
+      "toName": "Aeroporto Internacional de São Paulo-Guarulhos",
+      "fromCountry": "Colômbia",
+      "toCountry": "Brasil",
+      "departureTime": "2026-11-20T14:35:00",
+      "arrivalTime": "2026-11-20T22:55:00",
+      "durationSeconds": 22800,
+      "carrier": "AV",
+      "carrierName": "Avianca",
+      "flightNumber": "AV249",
+      "cabinClass": "Economy"
+     }
+    ]
+   }
+  }
+ ],
+ "searchTimeMs": 13555,
+ "error": null
+}

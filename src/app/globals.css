@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@theme {
+  --color-taxi-300: #fde68a;
+  --color-taxi-400: #fcd34d;
+  --color-taxi-500: #f5b700;
+  --color-ink-900: #0b1324;
+  --color-ink-800: #14203a;
+}
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  background: #f6f7fb;
+  color: #0f172a;
+}
+
+/* Barra de rolagem horizontal discreta (carrosséis e chips). */
+.scroll-thin {
+  scrollbar-width: thin;
+}
+
+/* Remove o ícone padrão do <details>. */
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Pinos de preço no mapa (estilo Hotels.com/Airbnb). */
+.price-pin {
+  transform: translate(-50%, -100%);
+  white-space: nowrap;
+  border-radius: 9999px;
+  background: #fff;
+  color: #0f172a;
+  font: 600 12px/1 var(--font-geist-sans), system-ui, sans-serif;
+  padding: 6px 9px;
+  box-shadow: 0 1px 4px rgb(15 23 42 / 0.35);
+  border: 1px solid rgb(15 23 42 / 0.12);
+  transition: transform 0.12s ease, background 0.12s ease;
+}
+.price-pin.is-active,
+.price-pin:hover {
+  background: #0f172a;
+  color: #fff;
+  transform: translate(-50%, -100%) scale(1.08);
+  z-index: 1000;
+}
+.price-pin.is-muted {
+  color: #64748b;
+}
+.leaflet-div-icon.pin-wrapper {
+  background: transparent;
+  border: none;
+}

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 112" preserveAspectRatio="xMidYMid slice">
+  <rect width="280" height="112" fill="#eef2f0"/>
+  <path d="M0 0h52c-8 30-6 70 6 112H0z" fill="#bfdbfe"/>
+  <path d="M232 0h48v112h-70c14-40 20-80 22-112z" fill="#bfdbfe"/>
+  <rect x="120" y="-10" width="38" height="70" rx="3" transform="rotate(29 139 25)" fill="#bbf7d0"/>
+  <g stroke="#ffffff" stroke-width="3">
+    <path d="M60 110 190 -10M80 112 210 -8M100 114 228 -4M70 30 230 110M60 60 200 130M90 0 240 80"/>
+  </g>
+  <g stroke="#fde68a" stroke-width="4">
+    <path d="M58 70 236 20M120 112 176 0"/>
+  </g>
+</svg>

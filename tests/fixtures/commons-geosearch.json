@@ -1,0 +1,169 @@
+{
+ "batchcomplete": "",
+ "query": {
+  "pages": {
+   "90000000": {
+    "pageid": 90000000,
+    "ns": 6,
+    "title": "File:Olde Good Things on the sidewalk.jpg",
+    "index": 1,
+    "imagetype": "bitmap",
+    "imageinfo": [
+     {
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Olde_Good_Things_on_the_sidewalk.jpg/960px-Olde_Good_Things_on_the_sidewalk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 960,
+      "thumbheight": 640,
+      "width": 4000,
+      "height": 2667,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Olde_Good_Things_on_the_sidewalk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Olde_Good_Things_on_the_sidewalk.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=90000000",
+      "extmetadata": {
+       "ObjectName": {
+        "value": "Olde Good Things on the sidewalk",
+        "source": "description"
+       },
+       "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/wiki/User:Jim.henderson\" title=\"User:Jim.henderson\">Jim.henderson</a>",
+        "source": "commons-desc-page"
+       },
+       "LicenseShortName": {
+        "value": "CC0",
+        "source": "commons-desc-page"
+       }
+      }
+     }
+    ]
+   },
+   "90000001": {
+    "pageid": 90000001,
+    "ns": 6,
+    "title": "File:131 West 24th Street.jpg",
+    "index": 2,
+    "imagetype": "bitmap",
+    "imageinfo": [
+     {
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/131_West_24th_Street.jpg/960px-131_West_24th_Street.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 960,
+      "thumbheight": 640,
+      "width": 4000,
+      "height": 2667,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/131_West_24th_Street.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:131_West_24th_Street.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=90000001",
+      "extmetadata": {
+       "ObjectName": {
+        "value": "131 West 24th Street",
+        "source": "description"
+       },
+       "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/wiki/User:Beyond My Ken\" title=\"User:Beyond My Ken\">Beyond My Ken</a>",
+        "source": "commons-desc-page"
+       },
+       "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page"
+       }
+      }
+     }
+    ]
+   },
+   "90000002": {
+    "pageid": 90000002,
+    "ns": 6,
+    "title": "File:Space...for once - panoramio.jpg",
+    "index": 3,
+    "imagetype": "bitmap",
+    "imageinfo": [
+     {
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Space...for_once_-_panoramio.jpg/960px-Space...for_once_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 960,
+      "thumbheight": 640,
+      "width": 4000,
+      "height": 2667,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Space...for_once_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Space...for_once_-_panoramio.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=90000002",
+      "extmetadata": {
+       "ObjectName": {
+        "value": "Space...for once",
+        "source": "description"
+       },
+       "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/wiki/User:Nick Normal\" title=\"User:Nick Normal\">Nick Normal</a>",
+        "source": "commons-desc-page"
+       },
+       "LicenseShortName": {
+        "value": "CC BY-SA 3.0",
+        "source": "commons-desc-page"
+       }
+      }
+     }
+    ]
+   },
+   "90000003": {
+    "pageid": 90000003,
+    "ns": 6,
+    "title": "File:The Corner II (51280079577).jpg",
+    "index": 4,
+    "imagetype": "bitmap",
+    "imageinfo": [
+     {
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/The_Corner_II_(51280079577).jpg/960px-The_Corner_II_(51280079577).jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 960,
+      "thumbheight": 640,
+      "width": 4000,
+      "height": 2667,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/The_Corner_II_(51280079577).jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:The_Corner_II_(51280079577).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=90000003",
+      "extmetadata": {
+       "ObjectName": {
+        "value": "The Corner II",
+        "source": "description"
+       },
+       "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/wiki/User:Phil Roeder\" title=\"User:Phil Roeder\">Phil Roeder</a>",
+        "source": "commons-desc-page"
+       },
+       "LicenseShortName": {
+        "value": "CC BY 2.0",
+        "source": "commons-desc-page"
+       }
+      }
+     }
+    ]
+   },
+   "1": {
+    "pageid": 1,
+    "ns": 6,
+    "title": "File:Map of Chelsea.svg",
+    "index": 0,
+    "imageinfo": [
+     {
+      "thumburl": "https://upload.wikimedia.org/x.svg.png",
+      "width": 800,
+      "height": 600,
+      "url": "https://upload.wikimedia.org/x.svg",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Map_of_Chelsea.svg"
+     }
+    ]
+   },
+   "2": {
+    "pageid": 2,
+    "ns": 6,
+    "title": "File:Tiny icon.png",
+    "index": 9,
+    "imageinfo": [
+     {
+      "thumburl": "https://upload.wikimedia.org/tiny.png",
+      "width": 120,
+      "height": 90,
+      "url": "https://upload.wikimedia.org/tiny.png",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Tiny_icon.png"
+     }
+    ]
+   }
+  }
+ }
+}
