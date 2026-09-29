@@ -1,5 +1,7 @@
 # Rumo a NY — hotéis e passagens para Nova York
 
+**No ar:** https://nyc-travel-search.vercel.app · MCP: `https://nyc-travel-search.vercel.app/api/mcp`
+
 Buscador de **hotéis e voos para Nova York** que agrega ofertas de APIs públicas e de servidores
 **MCP (Model Context Protocol)**, com interface inspirada em Hotels.com, Trivago e Kayak.
 
@@ -104,8 +106,8 @@ tests/                 Vitest + fixtures reais das APIs
 Ferramentas: `search_hotels`, `get_hotel_details`, `search_flights` e o prompt `planejar_viagem_nyc`.
 
 ```bash
-# HTTP (com o site rodando)
-claude mcp add --transport http rumo-a-ny http://localhost:3000/api/mcp
+# HTTP — produção (ou http://localhost:3000/api/mcp em desenvolvimento)
+claude mcp add --transport http rumo-a-ny https://nyc-travel-search.vercel.app/api/mcp
 ```
 
 ```jsonc
